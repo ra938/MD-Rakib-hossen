@@ -1,0 +1,375 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.rakib{
+    max-width: 1200px;
+    margin: auto;
+}
+/* slider section */
+.slider-section{
+    background: url(./img.jpg/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb( 0,0,0,.6);
+    z-index: -1;
+}
+
+
+
+/* header */
+
+.jon-header .navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+  
+}
+.jon-header span{
+
+        display: inline-block;
+        background: #6278df;
+        color: white;
+        height: 42px;
+        width: 34px;
+        text-align: center;
+        border-radius: 6px;
+        position: relative;
+        top: 5px;
+}
+
+.jon-menu .nav-link.active{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+
+.slider-caption h2{
+    margin-bottom: 44px;
+    font-size: 47px;
+}
+.slider-caption h4{
+    margin-bottom: 30px;
+}
+.slider-section .btn{
+    padding: 8px 20px;
+    font-weight: bold;
+    background: #5ba533;
+}
+
+.slider-section .form-control{
+    padding: 12px 24px;
+}
+
+
+/* feauter  section */
+
+.feature-section{
+    background-color: #f7f9ff;
+}
+.feature-text-sec{
+    margin-top: 100px;
+}
+
+.feature-text-sec h2{
+    margin-bottom: 42px;
+    font-size: 39px;
+    font-weight: 500;
+}
+.feature-text-sec .lead{
+    font-size: 20px;
+    line-height: 1.9rem
+}
+.rakib{
+    border-radius: 10px 0 10px 0;
+}
+
+
+/* man-list */
+.man-list-text h2{
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.man-list-text .lead{
+    font-size: 25px;
+}
+
+
+/* learn item */
+/* .container-item{
+height: 200px;
+width: auto;
+display: block; */
+
+
+ .container-item-section{
+ box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+} 
+.left-img-sec{
+    width: 45%;
+   
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto;
+    border-radius: 5px 0px 0 5px;
+
+}
+.right-text-sec{
+    width: 55%;
+    box-sizing: border-box;
+    padding: 31px;
+
+}
+.right-text-sec h4{
+    font-size: 24px;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+.right-text-sec p{
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 27px;
+    color: silver;
+    font-weight: 400;
+}
+
+
+.app-item-sec{
+    margin-top: 30px;
+
+}
+
+
+.app-item-sec a{
+    position: relative;
+    display: block;
+}
+.app-item-sec a::after{
+
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background:rgba(98, 120,223,.7);
+opacity: 0;
+visibility: hidden;
+transition: .5s;
+
+
+}
+
+.app-item-sec:hover a::after{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.rh h2 {
+    font-size: 53px;
+    font-weight: 250;
+}
+/* main-start */
+
+
+
+/* pricing-item */
+.pricing-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    background-color: white;
+}
+.pricing-item ul{
+    list-style: none;
+margin-left: 0;
+padding-left: 0;
+
+}
+.pricing-item ul li{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 14px;
+    color: silver;
+}
+.pricing-item ul li span{
+    color: blue;
+margin-right: 16px;
+font-weight: bold;
+font-size: 33px;
+}
+.pricing-item-btn a{
+
+    font-weight: bold;
+}
+.pricing-item:hover .pricing-item-btn a{
+    background-color: rgba(0, 0, 255, 0.459);
+    color: white;
+    transition: .4s;
+}
+.pricing-item:hover .pricing-item-btn a:hover{
+    background-color:black;
+    color: white;
+    transition: .5s;
+}
+.pricing-item h1{
+    padding: 0 58px;
+    font-size: 47px;
+    font-weight: 200;
+}
+.pricing-item p{
+    padding: 0 58px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.col h2{
+    font-size: 4rem;
+font-weight: 300;
+margin-bottom: 34px;
+}
+.col p{
+    color: #6c757d !important;
+font-size: 24px;
+font-weight: 100;
+}
+
+/* testimonial */
+.testimonial{
+    padding: 40px 0;
+}
+.testimonial .col h5{
+    color: #6c757d !important;
+margin-top: 32px;
+font-weight: 100;
+font-size: 28px;
+
+font-family: s;
+}
+.testimonial .col h2{
+    font-size: 49px;
+margin-top: 30px;
+font-weight: 300;
+font-family: s;
+}
+.testimonial .col span{
+    font-size: 89px;
+color: #ddd;
+}
+.testimonial .col p{
+    color: #6c757d !important;
+font-size: 24px;
+font-weight: 100;
+width: 800px;
+margin: auto;
+font-family: s;
+}
+.sumaiya-info{
+    width: 234px;
+    margin: auto;
+        margin-top: auto;
+    margin-top: 70px;
+}
+.sumaiya-info img{
+    width: 75px;
+}
+.user-iten{
+    position: relative;
+top: 5px;
+}
+.user-iten .mohammad{
+    color: black !important;
+}
+.user-iten .rh{
+    position: relative;
+left: -34px;
+}
+/* about-item */
+.about-item .card img{
+    width: 115px;
+    height: auto;
+    margin-top: -59px;
+    position: relative;
+    left: 14px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    font-weight: bold;
+}
+.shadow:hover{
+    background-color: black;
+    color: white;
+}
+.about-section{
+    padding: 30px 0;
+}
+.about-item{
+    padding: 73px 0;
+}
+.col .about-mm{
+    font-size: 43px;
+    font-weight: 300;
+    font-family: s;
+}
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .2);
+}
+
+.py-lg-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 9rem !important;
+    position: relative;
+    top: 4px;
+}
+
+/* sumu */
+.sumu{
+    display: flex;
+    width: 677px;
+    margin: auto;
+}
+.btn.btn-outline-info.sumua {
+    font-size: 30px;
+    padding: 25px 45px;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+span {
+    font-size: 30px;
+    margin-right: 23px;
+    position: relative;
+    top: 2px;
+}
+.fff{
+    font-size: 44px;
+    font-weight: 300;
+    color: silver;
+}
+.gggg{
+    font-size: 64px;
+    font-weight: 300;
+
+}
